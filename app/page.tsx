@@ -61,7 +61,7 @@ export default function HomePage() {
           aria-expanded="false"
           onClick={() => {
             const menu = document.getElementById('mobile-menu');
-            menu.classList.toggle('hidden');
+            menu?.classList.toggle('hidden');
           }}
         >
           <span className="sr-only">Abrir menú principal</span>
